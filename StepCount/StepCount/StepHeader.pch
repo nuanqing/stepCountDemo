@@ -1,0 +1,32 @@
+//
+//  StepHeader.pch
+//  StepCount
+//
+//  Created by webplus on 16/4/21.
+//  Copyright © 2016年 webplus. All rights reserved.
+//
+#import <Availability.h>
+#ifndef StepHeader_pch
+#define StepHeader_pch
+
+#endif
+
+#ifndef __IPHONE_5_0
+
+#endif
+//判断系统是否为7.0以上
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+//通知
+#define LOCATIONCHANGE @"change"
+#define LOCATIONFAIL @"fail"
+#define LOCATIONSTATE @"state"
+#define LOCATIONPAUSE @"pause"
+//屏幕大小
+#define KWIDTH [UIScreen mainScreen].bounds.size.width
+#define KHEIGHT [UIScreen mainScreen].bounds.size.height
+//更新时间
+#define UPDATATIME 0.2f
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
