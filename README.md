@@ -11,4 +11,3 @@
 ![效果图](https://github.com/nuanqing/stepCountDemo/blob/master/StepCount/stepCout.gif)
 
 
-有用的话，不妨给个**Star**吧！~
